@@ -44,6 +44,7 @@ export const experience: Experience[] = [
       "Built and shipped web and mobile applications from the ground up using React, Next.js, NestJS, TypeScript, and Ionic.",
       "Contributed as a developer on the iPickOfficial.com booking platform, working under the project's main developer.",
       "Developed iKomyut.com from the ground up, a public transport platform serving real commuters.",
+      "Built a kiosk-mode ticketing POS app for iKomyut using Ionic, printing commuter tickets on demand, paired with a native Android launcher written in Kotlin to lock the kiosk hardware into that app.",
       "Designed and independently built FreeTapTools.com as a standalone web application.",
       "Engineered RESTful APIs and integrated frontend/backend services end-to-end.",
       "Owned deployment, maintenance, and continuous system enhancement across the full SDLC.",
@@ -116,12 +117,19 @@ export const projects: Project[] = [
     href: "https://freetaptools.com",
     status: "Live",
   },
+  {
+    name: "iKomyut Ticket Kiosk",
+    description:
+      "A kiosk-mode POS ticketing app for iKomyut, built with Ionic — prints commuter tickets on demand. Paired with a native Android launcher written in Kotlin that locks the kiosk hardware into the app.",
+    tags: ["Ionic", "Kotlin", "Android", "POS"],
+    status: "Live",
+  },
 ];
 
 export const skillGroups: { label: string; skills: string[] }[] = [
   {
     label: "Frontend",
-    skills: ["React", "Next.js", "Ionic", "TypeScript", "JavaScript"],
+    skills: ["React", "Next.js", "Ionic", "TypeScript", "JavaScript", "Kotlin (Android)"],
   },
   {
     label: "Backend",
