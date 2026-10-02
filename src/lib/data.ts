@@ -94,7 +94,7 @@ export type Project = {
   description: string;
   tags: string[];
   href?: string;
-  status: "Live" | "In development" | "Private";
+  status: "Live" | "In development" | "Private" | "Thesis Project";
 };
 
 export const projects: Project[] = [
@@ -129,6 +129,13 @@ export const projects: Project[] = [
     tags: ["Ionic", "Kotlin", "Android", "POS"],
     status: "Live",
   },
+  {
+    name: "Automated Rice Transplanter",
+    description:
+      "College thesis robotics project — an automated rice seedling transplanter controlled by Arduino and Raspberry Pi microcontrollers, driving servo motors, a wiper motor, and linear actuators for the mechanical transplanting arm.",
+    tags: ["C++", "Arduino", "Raspberry Pi", "Robotics"],
+    status: "Thesis Project",
+  },
 ];
 
 export const skillGroups: { label: string; skills: string[] }[] = [
@@ -150,6 +157,10 @@ export const skillGroups: { label: string; skills: string[] }[] = [
       "Natural",
       "Adabas",
     ],
+  },
+  {
+    label: "Embedded & Robotics",
+    skills: ["C++", "Arduino", "Raspberry Pi", "Servo/Actuator Control"],
   },
   {
     label: "Tooling & Practice",
