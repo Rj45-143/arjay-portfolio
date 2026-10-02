@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Mail, Phone, ArrowUpRight } from "lucide-react";
 import { profile } from "@/lib/data";
 import { SectionLabel } from "./About";
+import GithubMark from "./GithubMark";
 
 export default function Contact() {
   return (
@@ -58,6 +59,17 @@ export default function Contact() {
             <Phone size={18} />
             {profile.phone}
           </a>
+          {profile.social.github && (
+            <a
+              href={profile.social.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 border border-line px-6 py-4 rounded-full font-semibold hover:border-accent hover:text-accent transition"
+            >
+              <GithubMark size={18} />
+              GitHub
+            </a>
+          )}
         </motion.div>
       </div>
     </section>

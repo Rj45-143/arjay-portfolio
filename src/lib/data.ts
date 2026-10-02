@@ -16,10 +16,10 @@ export const profile = {
   location: "San Isidro, Rodriguez, Rizal, Philippines",
   email: "arjaygaralde45@gmail.com",
   phone: "0985 449 5444",
-  // TODO(Arjay): drop in your real GitHub / LinkedIn handles when ready —
-  // left blank on purpose instead of a fake/dead link.
+  // TODO(Arjay): drop in your real LinkedIn handle when ready — left
+  // blank on purpose instead of a fake/dead link.
   social: {
-    github: "",
+    github: "https://github.com/Rj45-143",
     linkedin: "",
   },
 };
