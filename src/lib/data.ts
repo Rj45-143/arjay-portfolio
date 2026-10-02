@@ -180,6 +180,11 @@ export const trainings: { title: string; org: string; period: string }[] = [
     period: "2023 · 1 month",
   },
   {
+    title: "ISO 9001, 14001 & 45001 (Integrated Management System) Seminar",
+    org: "J.C. Rodriguez Construction Corp.",
+    period: "2018 — 2023",
+  },
+  {
     title: "Construction Occupation Safety and Health Training",
     org: "J.C. Rodriguez Construction Corp.",
     period: "2018 · 40 hrs.",
