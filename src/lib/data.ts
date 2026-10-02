@@ -42,7 +42,7 @@ export const experience: Experience[] = [
     period: "Sep 2025 — Present",
     points: [
       "Built and shipped web and mobile applications from the ground up using React, Next.js, NestJS, TypeScript, and Ionic.",
-      "Drove development of the iPickOfficial.com booking platform, from architecture through deployment.",
+      "Contributed as a developer on the iPickOfficial.com booking platform, working under the project's main developer.",
       "Co-developed iKomyut.com, a public transport platform serving real commuters.",
       "Designed and independently built FreeTapTools.com as a standalone web application.",
       "Engineered RESTful APIs and integrated frontend/backend services end-to-end.",
@@ -95,7 +95,7 @@ export const projects: Project[] = [
   {
     name: "iPickOfficial.com",
     description:
-      "Booking platform for iPick's ride and service bookings — owned from architecture through deployment, covering the web app, mobile app, and backend APIs.",
+      "Booking platform for iPick's ride and service bookings — contributed as a developer on the web app, mobile app, and backend APIs under the project's main developer.",
     tags: ["Next.js", "NestJS", "React", "Ionic", "TypeScript"],
     href: "https://ipickofficial.com",
     status: "Live",
