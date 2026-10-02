@@ -54,6 +54,7 @@ export const experience: Experience[] = [
     company: "Accenture Inc.",
     period: "Oct 2023 — Jul 2025",
     points: [
+      "Completed a 2-month foundational bootcamp (1 month COBOL, 1 month Java / Spring Boot) before onboarding onto the client engagement.",
       "Developed and maintained mission-critical backend systems for a major American banking client using COBOL, Natural, and Adabas.",
       "Translated complex business requirements into robust technical solutions and design documentation.",
       "Delivered system enhancements and production fixes under strict SDLC standards.",
@@ -131,7 +132,7 @@ export const skillGroups: { label: string; skills: string[] }[] = [
   },
   {
     label: "Backend",
-    skills: ["NestJS", "REST API design & integration", "Python", "COBOL", "Natural", "Adabas"],
+    skills: ["NestJS", "REST API design & integration", "Python", "Java", "Spring Boot", "COBOL", "Natural", "Adabas"],
   },
   {
     label: "Tooling & Practice",
@@ -165,6 +166,16 @@ export const trainings: { title: string; org: string; period: string }[] = [
     title: "Generative AI for Software Development: Best Practices in AI-Assisted Coding",
     org: "Accenture (In-house Certification)",
     period: "2025 · 72 hrs.",
+  },
+  {
+    title: "COBOL Bootcamp",
+    org: "Accenture Inc.",
+    period: "2023 · 1 month",
+  },
+  {
+    title: "Java / Spring Boot Bootcamp",
+    org: "Accenture Inc.",
+    period: "2023 · 1 month",
   },
   {
     title: "Construction Occupation Safety and Health Training",
