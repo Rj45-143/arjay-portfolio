@@ -163,6 +163,10 @@ export const skillGroups: { label: string; skills: string[] }[] = [
     skills: ["C++", "Arduino", "Raspberry Pi", "Servo/Actuator Control"],
   },
   {
+    label: "Cloud & Deployment",
+    skills: ["AWS Elastic Beanstalk", "Google Cloud Platform (GCP)", "Google Play Console"],
+  },
+  {
     label: "Tooling & Practice",
     skills: [
       "AI-Assisted Development",
