@@ -66,10 +66,9 @@ export const experience: Experience[] = [
     company: "J.C. Rodriguez Construction Corp.",
     period: "May 2018 — Mar 2023",
     points: [
-      "Built inventory monitoring and accountability systems for company IT and physical assets.",
-      "Assembled, configured, and deployed desktop workstations across the organization.",
-      "Installed and maintained LAN infrastructure and network connections company-wide.",
-      "Delivered hands-on technical support for hardware, software, and network issues.",
+      "Managed and monitored company IT equipment and physical assets as the core of the role.",
+      "Built Python tools for inventory tracking and analysis, filling the gap where no IT system existed yet in the company.",
+      "Occasionally assisted the IT team with hardware/network troubleshooting and network setup.",
     ],
   },
   {
@@ -132,7 +131,7 @@ export const skillGroups: { label: string; skills: string[] }[] = [
   },
   {
     label: "Backend",
-    skills: ["NestJS", "REST API design & integration", "COBOL", "Natural", "Adabas"],
+    skills: ["NestJS", "REST API design & integration", "Python", "COBOL", "Natural", "Adabas"],
   },
   {
     label: "Tooling & Practice",
