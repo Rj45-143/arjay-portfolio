@@ -31,7 +31,7 @@ export default function Nav() {
     >
       <nav className="mx-auto max-w-6xl px-5 sm:px-8 h-16 flex items-center justify-between">
         <a href="#top" className="font-display font-bold text-lg tracking-tight">
-          AG<span className="text-accent">.</span>
+          ABG<span className="text-accent">.</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-8 font-mono-tag text-xs uppercase tracking-wider text-muted">

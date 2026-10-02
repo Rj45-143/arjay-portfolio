@@ -2,8 +2,11 @@
 // components just render whatever lives in this file.
 
 export const profile = {
-  name: "Arjay Garalde",
+  name: "Arjay Badillo Garalde",
   firstName: "Arjay",
+  // Second line of the hero's stacked name treatment.
+  restOfName: "Badillo Garalde",
+  initials: "ABG",
   title: "Full Stack Developer",
   tagline:
     "I build and ship full stack products end-to-end — from architecture to production.",
