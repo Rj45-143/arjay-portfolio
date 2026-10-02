@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowDown, Mail, MapPin } from "lucide-react";
 import { profile } from "@/lib/data";
 
-const STACK = ["React", "Next.js", "NestJS", "TypeScript", "Ionic", "MongoDB", "Laravel", "MySQL"];
+const STACK = ["React", "Next.js", "NestJS", "TypeScript", "Ionic", "MongoDB", "Laravel", "MySQL", "Python"];
 
 export default function Hero() {
   return (
