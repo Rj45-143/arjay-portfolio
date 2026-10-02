@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #08090b;
+  --surface: #0f1113;
+  --surface-2: #15171a;
+  --foreground: #f3f4f2;
+  --muted: #9a9ea3;
+  --accent: #ff5e1a;
+  --accent-soft: #ffb089;
+  --line: #22252a;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-line: var(--line);
+  --font-sans: var(--font-sora);
+  --font-body: var(--font-inter);
+  --font-mono: var(--font-jetbrains);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: var(--line);
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--accent);
+  color: #0a0a0a;
+}
+
+/* Thin, visible but unobtrusive scrollbar to match the dark theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--surface-2);
+  border: 2px solid var(--background);
+  border-radius: 999px;
+}
+
+.font-display {
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-mono-tag {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+/* Soft radial glow used behind hero/section headers for depth without noise */
+.glow {
+  background: radial-gradient(
+    600px circle at var(--x, 50%) var(--y, 0%),
+    color-mix(in srgb, var(--accent) 16%, transparent),
+    transparent 60%
+  );
+}
+
+.grid-overlay {
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--line) 70%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--line) 70%, transparent) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--foreground), var(--accent-soft));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
