@@ -43,7 +43,7 @@ export const experience: Experience[] = [
     points: [
       "Built and shipped web and mobile applications from the ground up using React, Next.js, NestJS, TypeScript, and Ionic.",
       "Contributed as a developer on the iPickOfficial.com booking platform, working under the project's main developer.",
-      "Co-developed iKomyut.com, a public transport platform serving real commuters.",
+      "Developed iKomyut.com from the ground up, a public transport platform serving real commuters.",
       "Designed and independently built FreeTapTools.com as a standalone web application.",
       "Engineered RESTful APIs and integrated frontend/backend services end-to-end.",
       "Owned deployment, maintenance, and continuous system enhancement across the full SDLC.",
@@ -103,7 +103,7 @@ export const projects: Project[] = [
   {
     name: "iKomyut.com",
     description:
-      "A public transport platform built for real commuters — fleet, dispatch, and operations tooling behind a public-facing commuter experience.",
+      "A public transport platform developed from the ground up for real commuters — fleet, dispatch, and operations tooling behind a public-facing commuter experience.",
     tags: ["Next.js", "NestJS", "MongoDB", "TypeScript"],
     href: "https://ikomyut.com",
     status: "Live",
