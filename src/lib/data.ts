@@ -68,7 +68,8 @@ export const experience: Experience[] = [
     period: "May 2018 — Mar 2023",
     points: [
       "Managed and monitored company IT equipment and physical assets as the core of the role.",
-      "Built Python tools for inventory tracking and analysis, filling the gap where no IT system existed yet in the company.",
+      "Built Python tools for inventory tracking and analysis, filling the gap where no IT system existed yet for property management.",
+      "Gained hands-on familiarity with SAP processes through the company's existing SAP system for warehouse, purchasing, and accounting.",
       "Occasionally assisted the IT team with hardware/network troubleshooting and network setup.",
     ],
   },
@@ -141,6 +142,7 @@ export const skillGroups: { label: string; skills: string[] }[] = [
       "Mobile App Development",
       "Network & Hardware Troubleshooting",
       "Technical Documentation",
+      "SAP (Warehouse/Purchasing/Accounting)",
     ],
   },
 ];
