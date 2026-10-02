@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { Menu, X, ArrowUpRight } from "lucide-react";
-import { profile } from "@/lib/data";
 
 const LINKS = [
   { href: "#about", label: "About" },
@@ -45,15 +45,13 @@ export default function Nav() {
         </ul>
 
         <div className="hidden md:block">
-          <a
-            href={profile.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/resume"
             className="group inline-flex items-center gap-1.5 text-xs font-mono-tag uppercase tracking-wider border border-line px-4 py-2 rounded-full hover:border-accent hover:text-accent transition-colors"
           >
             Resume
             <ArrowUpRight size={14} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-          </a>
+          </Link>
         </div>
 
         <button
@@ -80,15 +78,14 @@ export default function Nav() {
               </li>
             ))}
           </ul>
-          <a
-            href={profile.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/resume"
+            onClick={() => setOpen(false)}
             className="mt-4 inline-flex items-center gap-1.5 text-xs font-mono-tag uppercase tracking-wider border border-line px-4 py-2 rounded-full"
           >
             Resume
             <ArrowUpRight size={14} />
-          </a>
+          </Link>
         </div>
       )}
     </header>

@@ -18,7 +18,6 @@ export const profile = {
     github: "",
     linkedin: "",
   },
-  resumeUrl: "/Arjay-Garalde-CV.pdf",
 };
 
 export const stats = [
