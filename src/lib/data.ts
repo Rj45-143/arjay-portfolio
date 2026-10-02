@@ -138,7 +138,18 @@ export const skillGroups: { label: string; skills: string[] }[] = [
   },
   {
     label: "Backend",
-    skills: ["NestJS", "REST API design & integration", "Python", "Java", "Spring Boot", "COBOL", "Natural", "Adabas"],
+    skills: [
+      "NestJS",
+      "REST API design & integration",
+      "Laravel (PHP)",
+      "MySQL",
+      "Python",
+      "Java",
+      "Spring Boot",
+      "COBOL",
+      "Natural",
+      "Adabas",
+    ],
   },
   {
     label: "Tooling & Practice",
