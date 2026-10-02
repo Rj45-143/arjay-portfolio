@@ -28,11 +28,9 @@ export default function Hero() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.05 }}
-            className="font-display font-extrabold text-[11vw] leading-[0.95] sm:text-6xl lg:text-6xl tracking-tight"
+            className="font-display font-extrabold text-[12vw] leading-[0.95] sm:text-7xl lg:text-7xl tracking-tight"
           >
-            {profile.firstName}
-            <br />
-            {profile.middleName}
+            {profile.firstName} {profile.middleName.charAt(0)}.
             <br />
             <span className="text-gradient">{profile.lastName}</span>
           </motion.h1>
