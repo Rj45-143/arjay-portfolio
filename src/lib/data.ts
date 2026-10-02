@@ -70,6 +70,7 @@ export const experience: Experience[] = [
       "Managed and monitored company IT equipment and physical assets as the core of the role.",
       "Built Python tools for inventory tracking and analysis, filling the gap where no IT system existed yet for property management.",
       "Gained hands-on familiarity with SAP processes through the company's existing SAP system for warehouse, purchasing, and accounting.",
+      "Attended employer-sponsored seminars on ISO 9001, 14001 & 45001 (Integrated Management System) standards.",
       "Occasionally assisted the IT team with hardware/network troubleshooting and network setup.",
     ],
   },
