@@ -32,7 +32,9 @@ export default function Hero() {
           >
             {profile.firstName}
             <br />
-            <span className="text-gradient">{profile.restOfName}</span>
+            {profile.middleName}
+            <br />
+            <span className="text-gradient">{profile.lastName}</span>
           </motion.h1>
 
           <motion.div

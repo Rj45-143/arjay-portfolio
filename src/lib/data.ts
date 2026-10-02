@@ -3,9 +3,10 @@
 
 export const profile = {
   name: "Arjay Badillo Garalde",
+  // Three stacked lines for the hero's name treatment.
   firstName: "Arjay",
-  // Second line of the hero's stacked name treatment.
-  restOfName: "Badillo Garalde",
+  middleName: "Badillo",
+  lastName: "Garalde",
   initials: "ABG",
   title: "Full Stack Developer",
   tagline:
